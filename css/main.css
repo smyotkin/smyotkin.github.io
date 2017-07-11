@@ -1,0 +1,111 @@
+html {
+  height: 100%; }
+
+body {
+  background: url("/img/bg.svg");
+  background-size: 100%;
+  color: #fff;
+  font-family: 'Roboto';
+  height: 100%;
+  position: relative;
+  overflow: hidden; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase; }
+
+h1 {
+  display: block;
+  height: 260px;
+  width: 360px;
+  padding: 30px;
+  background: #154d6f;
+  top: 0;
+  left: 50%;
+  margin: 0;
+  margin-left: -180px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 99; }
+  h1:hover {
+    left: 0;
+    margin: 0;
+    height: 90%;
+    width: 90%;
+    cursor: pointer; }
+
+.logo {
+  display: block;
+  position: absolute;
+  left: 36%;
+  height: 14%;
+  top: 5%;
+  z-index: 1000; }
+
+.comp {
+  display: block;
+  position: absolute;
+  left: 29%;
+  height: 30%;
+  top: 0;
+  z-index: 999; }
+
+.desk {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 16.3%;
+  bottom: 0;
+  background: #fff; }
+
+.portfolio {
+  display: block;
+  position: absolute;
+  width: 30%;
+  bottom: 24%;
+  left: 2%;
+  z-index: 10; }
+
+.man {
+  display: block;
+  background: url("/img/man.svg") no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  bottom: -600px;
+  left: 30px;
+  z-index: 1; }
+
+.keyboard {
+  display: block;
+  background: url("/img/keyboard.svg") no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  bottom: -243px;
+  left: 160px;
+  z-index: -1; }
+
+.mouse {
+  display: block;
+  position: absolute;
+  height: 15%;
+  bottom: 45%;
+  right: 28.7%;
+  margin-left: -10%; }
+
+.contact {
+  display: block;
+  position: absolute;
+  height: 37%;
+  bottom: 50%;
+  right: 4%;
+  margin-bottom: -11%; }
+
+.monitor:after {
+  content: "e-PC";
+  position: absolute;
+  color: #aaa;
+  margin-top: 6px;
+  font-size: 18px; }
